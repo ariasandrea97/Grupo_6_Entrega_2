@@ -10,7 +10,8 @@ from django.contrib import messages
 
 
 #Definicion de los formularios:
-from .forms import AltaPersonaForm, EnviarConsultaForm, InicioSesionForm
+from .forms import EnviarConsultaForm
+
 
 def index(request):
     # Hagamos de cuenta que este dato viene de la BBDD

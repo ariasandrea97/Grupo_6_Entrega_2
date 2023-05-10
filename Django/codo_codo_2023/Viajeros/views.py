@@ -9,11 +9,8 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 
 
-
 #Definicion de los formularios:
 from .forms import EnviarConsultaForm
-
-
 
 def index(request):
     # Hagamos de cuenta que este dato viene de la BBDD
